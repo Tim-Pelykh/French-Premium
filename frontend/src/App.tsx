@@ -1,22 +1,21 @@
 import React from 'react';
+import './App.css';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+import { HomeScreen } from './screens/index.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <header></header>
+      <main>
+        Hi
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+        </Routes>
+      </main>
+      <footer></footer>
+    </BrowserRouter>
   );
 }
 
