@@ -1,0 +1,46 @@
+.pf__home {
+  display: flex;
+}
+.pf__home-start {
+  display: flex;
+  text-align: center;
+}
+
+.pf__home-start_imgOverlay {
+  position: absolute;
+  width: 100vw;
+  height: 95vh;
+  background-color: var(--color-light3);
+  opacity: 0.23;
+}
+
+#main-img {
+  width: 100vw;
+  height: 95vh;
+}
+
+.pf__home-start h1 {
+  position: absolute;
+}
+.pf__home-start h2 {
+  position: absolute;
+}
+
+.pf__home-start_arrow {
+  position: absolute;
+}
+
+.pf__home-start_circle {
+  position: absolute;
+}
+
+@media screen and (max-width: 1700px) {
+  .pf__home-start_imgOverlay {
+    width: 98.9vw;
+    height: 90vh;
+  }
+  #main-img {
+    width: 98.9vw;
+    height: 90vh;
+  }
+}
