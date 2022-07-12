@@ -1,0 +1,101 @@
+.pf__navbar {
+  background-color: var(--color-light3);
+  font-size: 1.25rem;
+  color: var(--color-dark1);
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 1rem 3.5rem;
+}
+
+.pf__navbar-left {
+  display: inline-flex;
+}
+
+.pf__navbar-left a {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-right: 3.2rem;
+}
+
+.pf__navbar-left a:hover {
+  color: var(--color-dark2);
+  -webkit-transition: color 100ms linear;
+  -ms-transition: color 100ms linear;
+  transition: color 100ms linear;
+}
+
+.pf__navbar-left a:last-child {
+  margin-right: 0;
+}
+
+.pf__navbar-logo img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.pf__navbar-right {
+  display: inline-flex;
+}
+.pf__navbar-right a {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.pf__navbar-right button {
+  color: var(--color-light1);
+  background-color: var(--color-dark1);
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 12px;
+  min-width: 113px;
+  min-height: 45px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: background 200ms linear;
+  -ms-transition: background 200ms linear;
+  transition: background 200ms linear;
+}
+
+.pf__navbar-right button:hover {
+  background-color: var(--color-dark2);
+  -webkit-transition: background 100ms linear;
+  -ms-transition: background 100ms linear;
+  transition: background 100ms linear;
+}
+
+.pf__navbar-right a:first-child {
+  margin-left: 0;
+  margin-right: -0.5rem;
+}
+
+.pf__navbar-right a:first-child:hover {
+  color: var(--color-dark2);
+  -webkit-transition: color 100ms linear;
+  -ms-transition: color 100ms linear;
+  transition: color 100ms linear;
+}
+
+.pf__navbar-right a:last-child {
+  margin-left: 1rem;
+}
+
+.pf__navbar-right a:last-child button {
+  color: var(--color-dark1);
+  background-color: var(--color-light1);
+  -webkit-transition: background 200ms linear;
+  -ms-transition: background 200ms linear;
+  transition: background 200ms linear;
+}
+
+.pf__navbar-right a:last-child button:hover {
+  background-color: var(--color-light2);
+  border: none;
+  -webkit-transition: background 200ms linear;
+  -ms-transition: background 200ms linear;
+  transition: background 200ms linear;
+}
