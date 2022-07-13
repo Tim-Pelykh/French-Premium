@@ -1,0 +1,36 @@
+.pf__footer {
+  width: 100%;
+  background-color: var(--color-dark2);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.pf__footer-text {
+  margin-left: 23rem;
+  flex: 1;
+}
+
+.pf__footer-text p {
+  color: var(--color-light3);
+  font-size: 0.8rem;
+}
+
+.pf__footer-me p {
+  color: var(--color-light1);
+}
+
+.pf__footer-icons {
+  margin-top: -0.5rem;
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+.pf__footer-icons a {
+  padding-left: 1.1rem;
+}
+
+.pf__footer-icons img {
+  max-width: 33px;
+}

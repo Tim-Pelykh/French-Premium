@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Navbar } from './components/components';
+import { Navbar, Footer } from './components/components';
 import { HomeScreen } from './screens/index.js';
 
 function App() {
@@ -15,7 +15,9 @@ function App() {
           <Route path="/" element={<HomeScreen />} />
         </Routes>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </BrowserRouter>
   );
 }
