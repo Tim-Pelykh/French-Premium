@@ -30,14 +30,16 @@
   font-size: 50px;
   color: var(--color-light1);
   letter-spacing: 3px;
+  margin-bottom: 3.5rem;
 }
 
 .pf__home-start_content-arrow {
+  max-width: 70px;
+  transition: transform 0.2s;
 }
 
-.pf__home-start_content-circle {
-  max-width: 80px;
-  height: auto;
+.pf__home-start_content-arrow:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1700px) {
