@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { cta } from '../../../images/images';
 import '../homeScreen.css';
 
-function CTA() {
+function HomeCTA() {
   let plat = 'plat';
   const [translation, hoverTranslation] = useState(plat);
 
@@ -37,4 +37,4 @@ function CTA() {
     </div>
   );
 }
-export default CTA;
+export default HomeCTA;
