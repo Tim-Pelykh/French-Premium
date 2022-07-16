@@ -1,6 +1,3 @@
-.pf__home {
-  display: flex;
-}
 .pf__home-start {
   display: flex;
   text-align: center;
@@ -40,6 +37,79 @@
 
 .pf__home-start_content-arrow:hover {
   transform: scale(1.1);
+}
+
+.pf__home-who {
+  justify-content: center;
+  text-align: center;
+  background-color: var(--color-light1);
+}
+
+.pf__home-who_title h2 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: var(--color-dark1);
+  padding: 2.8rem 0 3rem;
+}
+
+.pf__home-who_content {
+  display: flex;
+}
+
+.pf__home-who_content-left {
+  padding-left: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.pf__home-who_content-left img {
+  border-radius: 13px;
+  border: 3.2px solid var(--color-light3);
+  filter: opacity(0.77) drop-shadow(0 0 0 var(--color-light3));
+  width: 100%;
+  min-width: 550px;
+  max-width: 600px;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.pf__home-who_content-left img:hover {
+  transform: scale(1.01);
+}
+
+.pf__home-who_content-left p {
+  font-size: 20px;
+  color: var(--color-dark2-transparent);
+  padding-top: 1rem;
+}
+
+.pf__home-who_content-line {
+  border-left: 1px solid var(--color-dark1);
+  max-height: 80px;
+  margin-left: 1.5rem;
+  margin-top: 9rem;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.pf__home-who_content-right {
+  text-align: start;
+}
+
+.pf__home-who_content-right p {
+  font-size: 1.5rem;
+  color: var(--color-dark1);
+  font-weight: 300;
+  line-height: 163.9%;
+  letter-spacing: 2.2px;
+  padding: 3rem 5rem 0 3rem;
+}
+
+.pf__home-who_content-right strong {
+  font-weight: 400;
+}
+
+.pf__home-who_content-right p:first-child {
+  padding-bottom: 1.2rem;
 }
 
 @media screen and (max-width: 1700px) {
