@@ -6,4 +6,10 @@
   --color-dark1: #574c33;
   --color-dark2: #3e3523;
   --color-dark2-transparent: #3e352370;
+
+  --gradient-background1: linear-gradient(
+    0deg,
+    rgba(244, 240, 230, 1) 81%,
+    rgba(246, 232, 200, 1) 100%
+  );
 }

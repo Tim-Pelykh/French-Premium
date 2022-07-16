@@ -1,3 +1,5 @@
+/* HOME START SECTION */
+
 .pf__home-start {
   display: flex;
   text-align: center;
@@ -38,6 +40,8 @@
 .pf__home-start_content-arrow:hover {
   transform: scale(1.1);
 }
+
+/* HOME WHO WE ARE SECTION */
 
 .pf__home-who {
   justify-content: center;
@@ -80,6 +84,8 @@
   font-size: 20px;
   color: var(--color-dark2-transparent);
   padding-top: 1rem;
+  line-height: 163.9%;
+  letter-spacing: 2px;
 }
 
 .pf__home-who_content-line {
@@ -112,7 +118,94 @@
   padding-bottom: 1.2rem;
 }
 
+/* HOME CTA SECTION */
+
+.pf__home-cta {
+  background: var(--gradient-background1);
+  display: flex;
+}
+
+.pf__home-cta_left {
+  margin: 3.5rem 1.7rem 3rem 4rem;
+  text-align: center;
+}
+
+.pf__home-cta_left img {
+  width: 100%;
+  width: 550px;
+  border-radius: 13px;
+  border: 3.2px solid var(--color-light3);
+  filter: opacity(0.77) drop-shadow(0 0 0 var(--color-light3));
+  transition: transform 0.2s;
+  margin-bottom: 0.5rem;
+}
+
+.pf__home-cta_left img:hover {
+  transform: scale(1.01);
+}
+
+.pf__home-cta_left p {
+  letter-spacing: 1.3px;
+  color: var(--color-dark2-transparent);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.pf__home-cta_line {
+  border-left: 1px solid var(--color-dark1);
+  height: 90px;
+  flex: 1;
+  margin-top: 12.7rem;
+}
+
+.pf__home-cta_right {
+  width: 100%;
+  text-align: center;
+  margin: 5.5rem 2rem 0 0;
+}
+
+.pf__home-cta_right h2 {
+  letter-spacing: 1.5px;
+  line-height: 134.9%;
+  font-weight: 500;
+  font-size: 3rem;
+  color: var(--color-dark2);
+}
+.pf__home-cta_right-translate {
+  color: var(--color-light4);
+  border: none;
+  font-size: 3rem;
+  transition: 1s;
+}
+
+.pf__home-cta_right-translate:hover {
+  padding: 2px;
+  padding-right: 0;
+  border-radius: 5px;
+}
+
+.pf__home-cta_right-button {
+  font-size: 2.3rem;
+  color: var(--color-light3);
+  background-color: var(--color-dark1);
+  border: 4px solid var(--color-light3);
+  border-radius: 26px;
+  cursor: pointer;
+  padding: 2rem 1.5rem;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s,
+    border-color 0.3s;
+  margin-top: 3.5rem;
+}
+
+.pf__home-cta_right button:hover {
+  border-color: var(--color-dark1);
+  transform: scale(1.01);
+  background-color: var(--color-light3);
+  color: var(--color-dark1);
+}
+
 @media screen and (max-width: 1700px) {
+  /* HOME START SECTION */
   #main-img {
     width: 98.9vw;
     height: 90vh;
