@@ -1,5 +1,10 @@
 import './homeScreen.css';
-import { HomeStart, HomeWhoWeAre, HomeCTA } from './homeScreenContainers/index';
+import {
+  HomeStart,
+  HomeWhoWeAre,
+  HomeCTA,
+  HomeDayOffer,
+} from './homeScreenContainers/index';
 import { Contact } from '../../components/components';
 
 let hours = new Date().getHours();
@@ -9,6 +14,7 @@ function HomeScreen() {
     <div className="pf__home">
       <HomeStart hours={hours} />
       <HomeWhoWeAre />
+      <HomeDayOffer />
       <HomeCTA />
       <Contact />
     </div>

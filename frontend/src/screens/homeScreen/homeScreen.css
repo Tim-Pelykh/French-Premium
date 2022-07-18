@@ -53,7 +53,7 @@
   font-size: 3.2rem;
   font-weight: 500;
   color: var(--color-dark1);
-  padding: 3.3rem 0 4.5rem;
+  padding: 3.3rem 0 3.3rem;
 }
 
 .pf__home-who_content {
@@ -118,10 +118,17 @@
   padding-bottom: 1.2rem;
 }
 
+/* HOME OFFER OF THE DAY SECTION */
+
+.pf__home-offer {
+  text-align: center;
+  background: var(--gradient-background1);
+}
+
 /* HOME CTA SECTION */
 
 .pf__home-cta {
-  background: var(--gradient-background1);
+  background: var(--gradient-background2);
   display: flex;
 }
 

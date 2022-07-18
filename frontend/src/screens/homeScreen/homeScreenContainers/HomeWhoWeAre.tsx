@@ -1,4 +1,3 @@
-import '../homeScreen.css';
 import { aboutUs } from '../../../images/images';
 
 function HomeWhoWeAre() {

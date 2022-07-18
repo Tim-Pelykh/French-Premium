@@ -1,4 +1,3 @@
-import '../homeScreen.css';
 import { homeBG } from '../../../images/images.js';
 import { arrowDown } from '../../../icons/icons.js';
 

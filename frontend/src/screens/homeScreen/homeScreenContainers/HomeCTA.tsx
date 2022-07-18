@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { cta } from '../../../images/images';
-import '../homeScreen.css';
 
 function HomeCTA() {
   let plat = 'plat';
