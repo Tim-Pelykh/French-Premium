@@ -8,16 +8,9 @@ import {
   twitterIcon,
   youtubeIcon,
 } from '../../icons/icons';
-import Map from './Map/Map';
 import './contact.css';
 
 function Contact() {
-  const location = {
-    address: '10 Downing St, London SW1A 2AB',
-    lat: 51.50348,
-    lng: -0.12734,
-  };
-
   return (
     <div className="pf__contact">
       <div className="pf__contact-social">
@@ -76,7 +69,13 @@ function Contact() {
       <div className="pf__contact-map">
         <h2>Find Us On Map</h2>
         <div className="pf__contact-map_gmaps">
-          <Map location={location} zoomLevel={17} />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5350177003265!2d-0.1277265!3d51.503399800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c56f3b61c7%3A0x9c97d4222fab0eb7!2s10%20Downing%20St%2C%20London%20SW1A%202AB!5e0!3m2!1sru!2suk!4v1658161122833!5m2!1sru!2suk"
+            width="450"
+            height="220"
+            loading="lazy"
+            title="Google Map"
+          ></iframe>
         </div>
       </div>
     </div>

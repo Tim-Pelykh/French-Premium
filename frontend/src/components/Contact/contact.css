@@ -45,7 +45,7 @@ p {
 }
 
 .pf__contact-hours {
-  margin: 2.5rem 1.5rem 0 9rem;
+  margin: 2.5rem 1.5rem 0 7rem;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ p {
 }
 
 .pf__contact-info {
-  margin: 2.5rem 1.5rem 0 9rem;
+  margin: 2.5rem 1.5rem 0 7rem;
   text-align: center;
 }
 
@@ -129,7 +129,15 @@ p {
   padding-top: 0.15rem;
 }
 
-.pf_contact-map_gmaps {
-  width: 100px;
-  height: 10vh;
+.pf__contact-map {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+iframe {
+  border: 3px solid var(--color-light2);
+  border-radius: 13px;
+  margin: 1rem;
+  margin-top: 0rem;
 }
