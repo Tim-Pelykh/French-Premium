@@ -1,0 +1,135 @@
+h2 {
+  font-weight: 300;
+  font-size: 1.375rem;
+  color: var(--color-dark2);
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: var(--color-light4);
+}
+
+p {
+  font-size: 16px;
+  color: var(--color-dark2);
+}
+
+.pf__contact {
+  display: flex;
+  border-top: 3px solid var(--color-dark1);
+  background-color: var(--color-light1);
+}
+
+.pf__contact-social {
+  margin: 2.5rem 1.5rem 1.5rem 5.5rem;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pf__contact-social img {
+  max-width: 40px;
+}
+
+.pf__contact-social img:hover {
+  filter: opacity(0.77) drop-shadow(0 0 0 var(--color-light3));
+}
+
+.pf__contact-line {
+  max-height: 100px;
+  margin-top: 9rem;
+  border-left: 1px solid var(--color-dark1);
+}
+
+.pf__contact-hours {
+  margin: 2.5rem 1.5rem 0 9rem;
+  text-align: center;
+}
+
+.pf__contact-hours_content {
+  background-color: var(--color-light2-transparent);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.pf__contact-hours_content p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pf__contact-hours_content p:last-child {
+  padding-bottom: 0;
+}
+
+.pf__contact-hours_content-line {
+  border-top: 1px solid var(--color-dark1);
+  margin-left: 1.9rem;
+  padding-bottom: 0.6rem;
+  max-width: 98px;
+}
+
+.pf__contact-info {
+  margin: 2.5rem 1.5rem 0 9rem;
+  text-align: center;
+}
+
+.pf__contact-info_content-top {
+  background-color: var(--color-light2-transparent);
+  width: 350px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.pf__contact-info_content-top h3 {
+  padding-bottom: 0.6rem;
+}
+
+.pf__contact-info_content-top p {
+  padding-bottom: 0.4rem;
+}
+
+.pf__contact-info_content-bottom {
+  display: flex;
+  background-color: var(--color-light2-transparent);
+  border-radius: 10px;
+  margin-top: 0.9rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+
+.pf__contact-info_content-bottom img:first-child {
+  max-width: 29px;
+}
+
+.pf__contact-info_content-bottom p {
+  font-size: 0.9rem;
+}
+
+.pf__contact-info_content-bottom_left p {
+  padding-left: 1rem;
+}
+.pf__contact-info_content-bottom_left img {
+  margin-left: 1rem;
+}
+
+.pf__contact-info_content-bottom_center-line {
+  border-left: 1px solid var(--color-dark1);
+  height: 38px;
+  margin: 0.6rem 1.6rem 0;
+}
+
+.pf__contact-info_content-bottom_right {
+  padding-top: 0.35rem;
+}
+
+.pf__contact-info_content-bottom_right p {
+  padding-top: 0.15rem;
+}
+
+.pf_contact-map_gmaps {
+  width: 100px;
+  height: 10vh;
+}

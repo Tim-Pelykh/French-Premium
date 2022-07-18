@@ -1,5 +1,6 @@
 import './homeScreen.css';
 import { HomeStart, HomeWhoWeAre, HomeCTA } from './homeScreenContainers/index';
+import { Contact } from '../../components/components';
 
 let hours = new Date().getHours();
 
@@ -9,6 +10,7 @@ function HomeScreen() {
       <HomeStart hours={hours} />
       <HomeWhoWeAre />
       <HomeCTA />
+      <Contact />
     </div>
   );
 }
