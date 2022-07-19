@@ -1,5 +1,5 @@
 import { CardMenu } from '../../../components/components';
-import { croissant } from '../../../images/images';
+import { croissant, salmon, soupe } from '../../../images/images';
 import '../homeScreen.css';
 
 function HomeDayOffer() {
@@ -9,6 +9,10 @@ function HomeDayOffer() {
       <p>Choose the tastiest offer of the day in Prime Français </p>
       <div className="pf__home-offer_menu">
         <CardMenu img={croissant} name="Strawberry Crème Croissant" />
+        <div className="pf__home-offer_menu-line" />
+        <CardMenu img={salmon} name="Salmon En Papillote" />
+        <div className="pf__home-offer_menu-line" />
+        <CardMenu img={soupe} name=" Soupe Àó L'oignon" />
       </div>
     </div>
   );
