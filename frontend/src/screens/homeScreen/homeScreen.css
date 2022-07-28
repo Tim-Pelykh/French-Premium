@@ -125,7 +125,7 @@
   background: var(--gradient-background1);
 }
 
-.pf__home-offer h1 {
+.pf__home-offer_heading {
   font-size: 3.2rem;
   font-weight: 500;
   color: var(--color-dark1);
@@ -133,7 +133,7 @@
   padding-bottom: 1.2rem;
 }
 
-.pf__home-offer p {
+.pf__home-offer_paragraph {
   font-size: 1.625rem;
   color: var(--color-dark2-transparent);
   margin-bottom: -1rem;
